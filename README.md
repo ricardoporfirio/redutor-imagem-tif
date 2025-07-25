@@ -78,4 +78,8 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para 
 
 Se você utilizar este código em sua pesquisa, por favor, cite-o.
 
+**Exemplo:**
+> [Seu Nome]. ([Ano]). *Script de Reamostragem de Imagens Raster (GeoTIFF)* (Version [v1.0.0]) [Software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+
+
 ---
