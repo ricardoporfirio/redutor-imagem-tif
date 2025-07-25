@@ -79,7 +79,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para 
 Se você utilizar este código em sua pesquisa, por favor, cite-o conforme o padrão ABNT.
 
 **Exemplo:**
-> PORFIRIO, Ricardo Tristão. **Script de Reamostragem de Imagens Raster (GeoTIFF)**. Versão [v1.0.0]. [S.l.]: Zenodo, 2025. Software. Disponível em: https://doi.org/10.5281/zenodo.XXXXXXX. Acesso em: [dia mês ano].
+> PORFIRIO, Ricardo Tristão. **Script de Reamostragem de Imagens Raster (GeoTIFF)**. Versão [v1.0.0]. [S.l.]: Zenodo, 2025. Software. Disponível em: https://zenodo.org/records/16417323. Acesso em: [dia mês ano].
 
 
 ---
