@@ -10,16 +10,16 @@ O exemplo prático que motivou este script foi a necessidade de reamostrar ortom
 
 ## ✨ Funcionalidades
 
--   Leitura de arquivos raster no formato GeoTIFF.
--   Redimensionamento da imagem com base em um fator de escala personalizável.
--   Suporte a diferentes algoritmos de interpolação (`bilinear`, `nearest neighbor`, `cubic`, etc.).
--   Preservação dos metadados espaciais essenciais (SCR e transformação geoespacial).
--   Criação de um novo arquivo GeoTIFF com a imagem reamostrada.
+-    Leitura de arquivos raster no formato GeoTIFF.
+-    Redimensionamento da imagem com base em um fator de escala personalizável.
+-    Suporte a diferentes algoritmos de interpolação (`bilinear`, `nearest neighbor`, `cubic`, etc.).
+-    Preservação dos metadados espaciais essenciais (SCR e transformação geoespacial).
+-    Criação de um novo arquivo GeoTIFF com a imagem reamostrada.
 
 ## ⚙️ Requisitos
 
--   Python 3.6+
--   Biblioteca `rasterio`
+-    Python 3.6+
+-    Biblioteca `rasterio`
 
 ## 🚀 Instalação
 
@@ -48,10 +48,10 @@ O exemplo prático que motivou este script foi a necessidade de reamostrar ortom
 
 3.  Modifique as seguintes variáveis no início do script para adequá-las à sua necessidade:
 
-    -   `input_path`: Caminho para o seu arquivo GeoTIFF de entrada.
-    -   `output_path`: Caminho e nome do arquivo de saída que será gerado.
-    -   `scale_factor`: Fator de escala para o redimensionamento.
-    -   `resampling`: Método de interpolação a ser utilizado.
+    -    `input_path`: Caminho para o seu arquivo GeoTIFF de entrada.
+    -    `output_path`: Caminho e nome do arquivo de saída que será gerado.
+    -    `scale_factor`: Fator de escala para o redimensionamento.
+    -    `resampling`: Método de interpolação a ser utilizado.
 
 4.  Execute o script através do terminal:
     ```bash
@@ -62,13 +62,13 @@ O exemplo prático que motivou este script foi a necessidade de reamostrar ortom
 
 ### Parâmetros do Script
 
--   `scale_factor`: Define o tamanho da imagem de saída em relação à original.
-    -   `0.5`: Reduz a imagem para 50% das dimensões (largura e altura).
-    -   `0.1`: Reduz para 10% (usado para passar de 4 cm para 40 cm de resolução).
--   `resampling`: Define o algoritmo para calcular os novos valores de pixel. Os mais comuns são:
-    -   `Resampling.bilinear`: (Padrão) Média ponderada dos 4 pixels vizinhos. Bom para dados contínuos (imagens, modelos de elevação).
-    -   `Resampling.nearest`: Vizinho mais próximo. Preserva os valores originais dos pixels. Ideal para dados categóricos (ex: mapas de uso e cobertura do solo).
-    -   `Resampling.cubic`: Interpolação cúbica dos 16 pixels vizinhos. Gera resultados mais suaves, mas é computacionalmente mais intenso.
+-    `scale_factor`: Define o tamanho da imagem de saída em relação à original.
+    -    `0.5`: Reduz a imagem para 50% das dimensões (largura e altura).
+    -    `0.1`: Reduz para 10% (usado para passar de 4 cm para 40 cm de resolução).
+-    `resampling`: Define o algoritmo para calcular os novos valores de pixel. Os mais comuns são:
+    -    `Resampling.bilinear`: (Padrão) Média ponderada dos 4 pixels vizinhos. Bom para dados contínuos (imagens, modelos de elevação).
+    -    `Resampling.nearest`: Vizinho mais próximo. Preserva os valores originais dos pixels. Ideal para dados categóricos (ex: mapas de uso e cobertura do solo).
+    -    `Resampling.cubic`: Interpolação cúbica dos 16 pixels vizinhos. Gera resultados mais suaves, mas é computacionalmente mais intenso.
 
 ## 📜 Licença
 
@@ -76,10 +76,10 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para 
 
 ## ✍️ Como Citar
 
-Se você utilizar este código em sua pesquisa, por favor, cite-o.
+Se você utilizar este código em sua pesquisa, por favor, cite-o conforme o padrão ABNT.
 
 **Exemplo:**
-> [Seu Nome]. ([Ano]). *Script de Reamostragem de Imagens Raster (GeoTIFF)* (Version [v1.0.0]) [Software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> PORFIRIO, Ricardo Tristão. **Script de Reamostragem de Imagens Raster (GeoTIFF)**. Versão [v1.0.0]. [S.l.]: Zenodo, 2025. Software. Disponível em: https://doi.org/10.5281/zenodo.16417323. Acesso em: [dia mês ano].
 
 
 ---
